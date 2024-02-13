@@ -14,4 +14,8 @@ public class MemberRepository {
         System.out.println("memberDto : " + memberDto);
         return sql.insert("Member.save", memberDto);
     }
+
+    public MemberDto login(MemberDto memberDto) {
+        return sql.selectOne("Member.login", memberDto);    // 조회 결과 1개 반환
+    }
 }
