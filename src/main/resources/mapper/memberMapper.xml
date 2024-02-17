@@ -4,12 +4,33 @@
 <!-- 네임스페이스 체크 Member.save 매핑하기 -->
 <mapper namespace="Member">
     <insert id="save" parameterType="member">
-        insert into member_table(memberEmail, memberPassword, memberName, memberAge, memberMobile)
-        values (#{memberEmail}, #{memberPassword}, #{memberName}, #{memberAge}, #{memberMobile})
+        /*일반적으로 쿼리에 대한 테스트는 DB 클라이언트에서 수행 한 후 적용이 좋음 */
+        INSERT INTO member_table(memberEmail, memberPassword, memberName, memberAge, memberMobile)
+        VALUES (#{memberEmail}, #{memberPassword}, #{memberName}, #{memberAge}, #{memberMobile})
     </insert>
 
     <select id="login" parameterType="member" resultType="member">
-        select * from member_table where memberEmail = #{memberEmail} and memberPassword = #{memberPassword}
+        SELECT  * FROM member_table WHERE memberEmail = #{memberEmail} AND memberPassword = #{memberPassword}
     </select>
 
+    <select id="findAll" resultType="member">
+        SELECT  * FROM member_table
+    </select>
+
+    <select id="findById" parameterType="Long" resultType="member">
+        SELECT  * FROM member_table WHERE id = #{id}
+    </select>
+
+    <delete id="delete" parameterType="Long">
+        DELETE FROM member_table WHERE id = #{id}
+    </delete>
+
+    <select id="findByMemberEmail" parameterType="String" resultType="member">
+        SELECT  * FROM member_table WHERE memberEmail = #{memberEmail}
+    </select>
+
+    <update id="update" parameterType="member">
+        UPDATE member_table SET memberAge = #{memberAge}, memberMobile=#{memberMobile}
+        WHERE id = #{id}
+    </update>
 </mapper>
