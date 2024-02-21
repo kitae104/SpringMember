@@ -13,4 +13,16 @@
         SELECT * FROM board_table ORDER BY id DESC
     </select>
 
+    <select id="findById" parameterType="Long" resultType="board">
+        SELECT * FROM board_table WHERE id = #{id}
+    </select>
+
+    <update id="updateHits" parameterType="Long">
+        UPDATE board_table SET boardHits = boardHits + 1 WHERE id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="Long">
+        DELETE FROM board_table WHERE id = #{id}
+    </delete>
+    
 </mapper>
