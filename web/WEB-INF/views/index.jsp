@@ -17,6 +17,7 @@
     <a href="/member/list">회원목록 조회</a>
     <a href="/board/save">게시글 작성</a>
     <a href="/board/list">게시글 목록</a>
+    <a href="/board/paging">페이징 목록</a>
 
 </body>
 </html>

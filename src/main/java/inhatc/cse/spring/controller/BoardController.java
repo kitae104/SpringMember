@@ -52,4 +52,30 @@ public class BoardController {
         boardService.delete(id);
         return "redirect:/board/list";
     }
+
+    @GetMapping("/update")
+    public String updateForm(@RequestParam("id") Long id, Model model){
+        BoardDto boardDto = boardService.findById(id);
+        model.addAttribute("board", boardDto);
+        return "board/update";
+    }
+
+    @PostMapping("/update")
+    public String update(@ModelAttribute BoardDto boardDto, Model model){
+        boardService.update(boardDto);
+        BoardDto dto = boardService.findById(boardDto.getId());
+        model.addAttribute("board", dto);
+        return "board/detail";
+    }
+
+    // /board/paging?page=1
+    @GetMapping("/paging")
+    public String paging(@RequestParam(value = "page", required = false, defaultValue = "1") int page,
+                         Model model){
+        System.out.println("page = " + page);
+        // 해당 페이지에 보여줄 글 목록
+        List<BoardDto> boardDtoList = boardService.pagingList(page);
+        model.addAttribute("boardList", boardDtoList);
+        return "board/list";
+    }
 }

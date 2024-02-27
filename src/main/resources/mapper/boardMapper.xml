@@ -25,4 +25,8 @@
         DELETE FROM board_table WHERE id = #{id}
     </delete>
 
+    <update id="update" parameterType="board">
+        UPDATE board_table SET boardTitle = #{boardTitle}, boardContents = #{boardContents} WHERE id = #{id}
+    </update>
+
 </mapper>

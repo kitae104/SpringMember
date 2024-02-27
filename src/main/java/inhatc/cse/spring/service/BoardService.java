@@ -32,4 +32,12 @@ public class BoardService {
     public void delete(Long id) {
         boardRepository.delete(id);
     }
+
+    public void update(BoardDto boardDto) {
+        boardRepository.update(boardDto);
+    }
+
+    public List<BoardDto> pagingList(int page) {
+        return null;
+    }
 }
