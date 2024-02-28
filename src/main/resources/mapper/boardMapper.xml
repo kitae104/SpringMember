@@ -10,23 +10,44 @@
     </insert>
 
     <select id="findAll" resultType="board">
-        SELECT * FROM board_table ORDER BY id DESC
+        SELECT *
+        FROM board_table
+        ORDER BY id DESC
     </select>
 
     <select id="findById" parameterType="Long" resultType="board">
-        SELECT * FROM board_table WHERE id = #{id}
+        SELECT *
+        FROM board_table
+        WHERE id = #{id}
     </select>
 
     <update id="updateHits" parameterType="Long">
-        UPDATE board_table SET boardHits = boardHits + 1 WHERE id = #{id}
+        UPDATE board_table
+        SET boardHits = boardHits + 1
+        WHERE id = #{id}
     </update>
 
     <delete id="delete" parameterType="Long">
-        DELETE FROM board_table WHERE id = #{id}
+        DELETE
+        FROM board_table
+        WHERE id = #{id}
     </delete>
 
     <update id="update" parameterType="board">
-        UPDATE board_table SET boardTitle = #{boardTitle}, boardContents = #{boardContents} WHERE id = #{id}
+        UPDATE board_table
+        SET boardTitle    = #{boardTitle},
+            boardContents = #{boardContents}
+        WHERE id = #{id}
     </update>
 
+    <select id="pagingList" parameterType="java.util.HashMap" resultType="board">
+        SELECT *
+        FROM board_table
+        ORDER BY id DESC LIMIT #{start}, #{limit}
+    </select>
+
+    <select id="boardCount" resultType="Integer">
+        SELECT count(id)
+        FROM board_table
+    </select>
 </mapper>
