@@ -1,11 +1,12 @@
 package inhatc.cse.spring.controller;
 
 import inhatc.cse.spring.dto.BoardDto;
+import inhatc.cse.spring.dto.CommentDto;
 import inhatc.cse.spring.dto.PageDto;
 import inhatc.cse.spring.service.BoardService;
+import inhatc.cse.spring.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,6 +18,7 @@ import java.util.List;
 public class BoardController {
 
     private final BoardService boardService;
+    private final CommentService commentService;
 
     @GetMapping("/save")
     public String saveForm(){
@@ -48,6 +50,10 @@ public class BoardController {
         BoardDto boardDto = boardService.findById(id);
         model.addAttribute("board", boardDto);
         model.addAttribute("page", page);           // 현재 페이지 정보
+
+        List<CommentDto> commentDtoList = commentService.findAll(id);
+        model.addAttribute("commentList", commentDtoList);
+        
         return "board/detail";
     }
 
@@ -76,10 +82,10 @@ public class BoardController {
     @GetMapping("/paging")
     public String paging(@RequestParam(value = "page", required = false, defaultValue = "1") int page,
                          Model model){
-        System.out.println("page = " + page);
+        //System.out.println("page = " + page);
         // 해당 페이지에 보여줄 글 목록
         List<BoardDto> boardDtoList = boardService.pagingList(page);
-        System.out.println("============== boardDtoList = " + boardDtoList);
+        //System.out.println("============== boardDtoList = " + boardDtoList);
         PageDto pageDto = boardService.pagingParam(page);
         model.addAttribute("boardList", boardDtoList);
         model.addAttribute("paging", pageDto);

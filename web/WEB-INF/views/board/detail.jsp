@@ -43,6 +43,7 @@
 <button onclick="updateFn()">수정</button>
 <button onclick="deleteFn()">삭제</button>
 
+<!-- 댓글 처리하는 부분 -->
 <div>
     <input type="text" id="commentWriter" placeholder="작성자">
     <input type="text" id="commentContents" placeholder="내용">
@@ -82,22 +83,26 @@
         location.href = "/board/delete?id=" + id;
     }
 
+    // 댓글 작성 기능
     const commentWrite = () => {
         const writer = document.getElementById("commentWriter").value;
         const contents = document.getElementById("commentContents").value;
-        const board = '${board.id}';
+        const boardId = '${board.id}';   //
+
         $.ajax({
             type: "post",
             url: "/comment/save",
             data: {
                 commentWriter: writer,
                 commentContents: contents,
-                boardId: board
+                boardId: boardId
             },
             dataType: "json",
             success: function(commentList) {
-                console.log("작성성공");
+                alert("작성성공");
                 console.log(commentList);
+
+                // 결과 출력을 위한 테이블 생성
                 let output = "<table>";
                 output += "<tr><th>댓글번호</th>";
                 output += "<th>작성자</th>";
@@ -117,7 +122,7 @@
                 document.getElementById('commentContents').value='';
             },
             error: function() {
-                console.log("실패");
+                alert("댓글 등록 실패");
             }
         });
     }
