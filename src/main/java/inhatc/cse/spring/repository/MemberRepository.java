@@ -2,6 +2,7 @@ package inhatc.cse.spring.repository;
 
 import inhatc.cse.spring.dto.MemberDto;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -9,12 +10,16 @@ import java.util.List;
 
 @Repository
 @RequiredArgsConstructor
+@Slf4j
 public class MemberRepository {
 
     private final SqlSessionTemplate sql;
     public int save(MemberDto memberDto) {
+        // 콘솔에 DTO 정보 출력
         System.out.println("memberDto : " + memberDto);
-        return sql.insert("Member.save", memberDto);
+        log.info("memberDto : {}", memberDto);
+        //return sql.insert("Member.save", memberDto);
+        return 0;
     }
 
     public MemberDto login(MemberDto memberDto) {

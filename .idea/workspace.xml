@@ -9,7 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3cbaf3-7f51-467b-9949-09d43917728f" name="Changes" comment="" />
+    <list default="true" id="0e3cbaf3-7f51-467b-9949-09d43917728f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/dto/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/dto/MemberDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/member/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/member/save.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kitae104&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kitae104/SpringMember.git&quot;,
+    &quot;accountId&quot;: &quot;46709cdc-e9c5-4e37-91f5-84ff1194834b&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/memberMapper.xml" root0="SKIP_INSPECTION" />
   </component>
@@ -64,6 +88,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Tomcat Server.Tomcat 9.0.85.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 서버.Tomcat 9.0.85.executor&quot;: &quot;Run&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -92,7 +117,7 @@
       <recent name="inhatc.cse.spring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.85">
+  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.85">
     <configuration name="BoardServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringMember" />
       <extension name="coverage">
@@ -123,6 +148,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="e8d63258-eed9-41ca-8d73-5b668e0fec98" />
+        <option name="JNDI_PORT" value="11099" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -199,11 +225,23 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.BoardServiceTest.findAll" />
+      <item itemvalue="Tomcat 서버.Tomcat 9.0.85" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BoardServiceTest.findAll" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -240,6 +278,8 @@
       <workItem from="1709093844935" duration="6468000" />
       <workItem from="1709201590765" duration="5691000" />
       <workItem from="1709344246792" duration="17000" />
+      <workItem from="1714310780143" duration="1544000" />
+      <workItem from="1714312396672" duration="1327000" />
     </task>
     <servers />
   </component>

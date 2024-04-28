@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>사용자 저장 페이지</title>
+    <title>회원 가입 페이지</title>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
 <body>
-    <h2>사용자 정보 저장 페이지</h2>
+    <h2>회원 가입 페이지</h2>
     <form action="/member/save" method="post">
         <input type="text" name="memberEmail" placeholder="이메일" id="memberEmail" onblur="emailCheck()">
         <p id="check-result"></p>

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
+@RequiredArgsConstructor  // 생성자 주입 방식
 public class MemberService {
 
     private final MemberRepository memberRepository;

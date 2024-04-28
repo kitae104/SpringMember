@@ -12,6 +12,6 @@
         <property name="order" value="1"/>
     </bean>
 
-    <!-- -->
+    <!-- 반드시 경로 확인 -->
     <context:component-scan base-package="inhatc.cse.spring" />
 </beans>

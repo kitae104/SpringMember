@@ -10,7 +10,7 @@
 
     <name>Spring Member</name>
 
-    <!-- 레거시 특성상 버전을 낮췃서 작업해야 하는 상태임 -->
+    <!-- 여기부터 복사해서 가져감. -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
