@@ -13,7 +13,8 @@ import java.util.List;
 @Slf4j
 public class MemberRepository {
 
-    private final SqlSessionTemplate sql;
+    private final SqlSessionTemplate sql;   // SqlSessionTemplate 객체 주입
+
     public int save(MemberDto memberDto) {
         // 콘솔에 DTO 정보 출력
         System.out.println("memberDto : " + memberDto);
