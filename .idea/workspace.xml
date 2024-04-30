@@ -11,8 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e3cbaf3-7f51-467b-9949-09d43917728f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +37,12 @@
     &quot;assignee&quot;: &quot;kitae104&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kitae104/SpringMember.git",
-    "accountId": "56ce049e-a579-4874-b113-36f90b6a0784"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kitae104/SpringMember.git&quot;,
+    &quot;accountId&quot;: &quot;56ce049e-a579-4874-b113-36f90b6a0784&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/memberMapper.xml" root0="SKIP_INSPECTION" />
   </component>
@@ -277,6 +276,7 @@
       <workItem from="1714312396672" duration="1327000" />
       <workItem from="1714453834696" duration="2255000" />
       <workItem from="1714458283685" duration="567000" />
+      <workItem from="1714459010057" duration="964000" />
     </task>
     <servers />
   </component>
