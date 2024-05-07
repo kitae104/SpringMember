@@ -9,18 +9,33 @@
 <html>
 <head>
     <title>시작 페이지</title>
+    <link href="/resources/css/index.css" rel="stylesheet"/>
 </head>
 <body>
-    <h2>Spring Framework 프로젝트</h2>
+    <h2 class="index-title">Spring Framework 프로젝트</h2>
+    <div class="menu">
+        <ul class="menu-items">
+            <li class="menu-item">
+                <a href="/member/save">회원가입</a>
+            </li>
+            <li class="menu-item">
+                <a href="/member/login">로그인</a>
+            </li>
+            <li class="menu-item">
+                <a href="/member/list">회원목록 조회</a>
+            </li>
+            <li class="menu-item">
+                <a href="/board/save">게시글 작성</a>
+            </li>
+            <li class="menu-item">
+                <a href="/board/list">게시글 목록</a>
+            </li>
+            <li class="menu-item">
+                <a href="/board/paging">페이징 목록</a>
+            </li>
+        </ul>
+    </div>
 
-    <a href="/member/save">회원가입</a>
-    <a href="/member/login">로그인</a>
-    <a href="/member/list">회원목록 조회</a>
-
-
-    <a href="/board/save">게시글 작성</a>
-    <a href="/board/list">게시글 목록</a>
-    <a href="/board/paging">페이징 목록</a>
 
 </body>
 </html>

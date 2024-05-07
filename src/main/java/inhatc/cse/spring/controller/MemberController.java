@@ -39,7 +39,7 @@ public class MemberController {
 
     @GetMapping("/login")
     public String loginForm() {
-        System.out.println("=========== 로그인 이동");
+        //System.out.println("=========== 로그인 이동");
         return "member/login";
     }
 
@@ -56,7 +56,7 @@ public class MemberController {
 
     @GetMapping("/list")
     public String listForm(Model model) {
-        System.out.println("=========== 사용자 리스트로 이동");
+        //System.out.println("=========== 사용자 리스트로 이동");
         List<MemberDto> memberDtoList = memberService.findAll();
         System.out.println("memberDtoList : " + memberDtoList);
         model.addAttribute("memberList", memberDtoList);
@@ -100,7 +100,7 @@ public class MemberController {
 
     @PostMapping("/email-check")  // 객체 전달을 위해서는 매개변수 전달시에 @ResponseBody 사용
     public @ResponseBody String emailCheck(@RequestParam("memberEmail") String memberEmail) {
-        System.out.println("====== 전달된 이메일 : " + memberEmail);
+        //System.out.println("====== 전달된 이메일 : " + memberEmail);
         String result = memberService.emailCheck(memberEmail);
         return result;
     }

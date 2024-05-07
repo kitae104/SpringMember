@@ -1,0 +1,44 @@
+body {
+    font-family: "Montserrat", sans-serif;  /* 글꼴 설정 */
+    margin: 1rem;
+}
+
+.index-title{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0e4f1f;
+}
+
+.menu {
+    display: inline-block;    /* 가로로 배열 */
+    vertical-align: middle;   /* 세로 중앙 정렬 */
+}
+
+.menu-items {
+    margin: 1rem;
+    padding: 1rem;
+    list-style: none;       /* 목록 표시 없애기 */
+}
+
+.menu-item {
+    display: inline-block;      /* 가로로 배열 */
+    margin: 0.5rem;
+}
+
+.menu-item a {
+    text-decoration: none;      /* 밑줄 없애기 */
+    color: #0e4f1f;             /* 글자색 */
+    font-weight: bold;          /* 글자 굵게 */
+    padding: 0.2rem 0;
+}
+
+.menu-item a:hover,
+.menu-item a:active{
+    color: white;            /* 마우스 올렸을 때 글자색 */
+    border-bottom: 5px solid #0e4f1f;;  /* 마우스 올렸을 때 밑줄 */
+    font-weight: bold;          /* 글자 굵게 */
+    background: #ff1b68;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;     /* 테두리 모서리 둥글게 */
+}
