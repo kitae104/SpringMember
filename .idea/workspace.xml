@@ -10,15 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e3cbaf3-7f51-467b-9949-09d43917728f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/css/member.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/css/share.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/member/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/member/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/member/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/member/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/css/member.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/css/member.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +113,7 @@
       <recent name="inhatc.cse.spring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.85">
+  <component name="RunManager" selected="JUnit.BoardServiceTest.findAll">
     <configuration name="BoardServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringMember" />
       <extension name="coverage">
@@ -230,7 +223,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BoardServiceTest.findAll" />
-      <item itemvalue="Tomcat 서버.Tomcat 9.0.85" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.85" />
     </list>
     <recent_temporary>
       <list>
