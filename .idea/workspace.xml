@@ -10,15 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e3cbaf3-7f51-467b-9949-09d43917728f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/resources/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/css/member.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/css/share.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberAPIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/member/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/member/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/member/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/member/save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +25,8 @@
         <option value="spring-beans.schema" />
         <option value="JUnit5 Test Class" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -288,6 +282,10 @@
       <workItem from="1714459010057" duration="964000" />
       <workItem from="1714803545124" duration="5186000" />
       <workItem from="1714898746015" duration="2127000" />
+      <workItem from="1715938616989" duration="1239000" />
+      <workItem from="1715962577963" duration="1592000" />
+      <workItem from="1716046636234" duration="960000" />
+      <workItem from="1716047905436" duration="4056000" />
     </task>
     <servers />
   </component>

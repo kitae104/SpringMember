@@ -19,8 +19,7 @@ public class MemberRepository {
         // 콘솔에 DTO 정보 출력
         System.out.println("memberDto : " + memberDto);
         log.info("memberDto : {}", memberDto);
-        //return sql.insert("Member.save", memberDto);
-        return 0;
+        return sql.insert("Member.save", memberDto);
     }
 
     public MemberDto login(MemberDto memberDto) {
