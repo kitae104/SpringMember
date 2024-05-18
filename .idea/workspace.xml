@@ -114,7 +114,7 @@
       <recent name="inhatc.cse.spring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.85">
+  <component name="RunManager" selected="JUnit.BoardServiceTest.findAll">
     <configuration name="BoardServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringMember" />
       <extension name="coverage">
@@ -224,7 +224,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BoardServiceTest.findAll" />
-      <item itemvalue="Tomcat 서버.Tomcat 9.0.85" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.85" />
     </list>
     <recent_temporary>
       <list>
