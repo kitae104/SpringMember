@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e3cbaf3-7f51-467b-9949-09d43917728f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberAPIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhatc/cse/spring/controller/MemberAPIController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Github/Spring_WS/SpringMember/src/main/resources/mapper&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Github/Project24/YULO_Web&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -114,7 +113,7 @@
       <recent name="inhatc.cse.spring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardServiceTest.findAll">
+  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.85">
     <configuration name="BoardServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringMember" />
       <extension name="coverage">
@@ -145,6 +144,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="e8d63258-eed9-41ca-8d73-5b668e0fec98" />
+        <option name="HTTP_PORT" value="18080" />
         <option name="JNDI_PORT" value="11099" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -224,7 +224,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BoardServiceTest.findAll" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.85" />
+      <item itemvalue="Tomcat 서버.Tomcat 9.0.85" />
     </list>
     <recent_temporary>
       <list>
@@ -286,6 +286,12 @@
       <workItem from="1715962577963" duration="1592000" />
       <workItem from="1716046636234" duration="960000" />
       <workItem from="1716047905436" duration="4056000" />
+      <workItem from="1716054727120" duration="74000" />
+      <workItem from="1716085606209" duration="328000" />
+      <workItem from="1716085957024" duration="453000" />
+      <workItem from="1716087574912" duration="19000" />
+      <workItem from="1716131668784" duration="97000" />
+      <workItem from="1716132167879" duration="2693000" />
     </task>
     <servers />
   </component>

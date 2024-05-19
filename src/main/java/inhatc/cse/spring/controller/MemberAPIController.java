@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @CrossOrigin
 @RestController
 @RequestMapping("/api")
@@ -29,5 +31,12 @@ public class MemberAPIController {
         int saveResult = memberService.save(memberDto);     // 회원 가입 처리
         System.out.println("=========== 회원 가입 결과 : " + saveResult);
         return new ResponseEntity<>(saveResult, HttpStatus.OK);			// 200
+    }
+
+    @GetMapping("/memberlist")
+    public ResponseEntity<?> list(){		// 동적 반환을 위해 ? 사용
+        List<MemberDto> memberDtoList = memberService.findAll();
+        System.out.println("memberDtoList : " + memberDtoList);
+        return new ResponseEntity<>(memberDtoList, HttpStatus.OK);			// 200
     }
 }
